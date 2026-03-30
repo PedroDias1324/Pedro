@@ -79,16 +79,16 @@ if st.button("CLIQUE PARA LIBERAR O ACESSO"):
     with col1:
         st.markdown("## ✨")
     with col2:
-        st.subheader("O seu sorriso é maravilhoso!")
-        st.write("Ele muda o meu dia por completo.")
+        st.subheader("Sou viciado pelo teu sorriso!")
+        st.write("Amo ficar te olhando.")
 
     # Mensagem 3: A Analogia do Inter (O toque especial)
     st.write("---")
     st.markdown(f"""
     <div class="inter-box">
-        <strong>Fato Científico:</strong><br>
+        <strong>FATOS REAIS:</strong><br>
         O tanto que você ama o <b>Internacional</b>, multiplica por mil... 
-        é exatamente o tanto que eu gosto de você! 🇦🇹❤️
+        é exatamente o tanto que eu gosto de ti! 🇦🇹❤️
     </div>
     """, unsafe_allow_html=True)
 
@@ -98,7 +98,7 @@ if st.button("CLIQUE PARA LIBERAR O ACESSO"):
     
     with st.container():
         st.warning("Data: **11/04**")
-        st.write("Reserve esse dia. iremos fazer algo muito especial e vou deixar apenas um gostinho de **segredo** no ar... 🤫")
+        st.write("Reserve esse dia. iremos fazer algo especial para comemorar mais 1 ano de vida...e vou deixar apenas um gostinho de **segredo** no ar... 🤫")
         
     # Finalização fofa
     st.markdown("---")
