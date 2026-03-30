@@ -23,6 +23,7 @@ st.markdown("""
         text-align: center;
         border-bottom: 5px solid #e63946;
         margin-bottom: 25px;
+        color: black;
     }
     
     /* Botão personalizado */
