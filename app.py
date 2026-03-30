@@ -60,7 +60,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # --- CONTEÚDO PRINCIPAL ---
-st.markdown('<div class="hero-box"><h1>Oi, minha vida! ❤️</h1><p>Desenvolvi algo especial para você saber o quanto eu gosto de ti.</p></div>', unsafe_allow_html=True)
+st.markdown('<div class="hero-box"><h1>Oi, Kami!❤️❤️❤️</h1><p>Desenvolvi algo especial para você saber o quanto eu gosto de ti.</p></div>', unsafe_allow_html=True)
 
 # Botão de ativação com feedback visual
 if st.button("CLIQUE PARA LIBERAR O ACESSO"):
