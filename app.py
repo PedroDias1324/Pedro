@@ -46,6 +46,16 @@ st.markdown("""
         border-left: 5px solid #e63946;
         color: #333;
     }
+    
+    /* Animação de corações */
+    @keyframes float {
+        0% { transform: translateY(0px); }
+        50% { transform: translateY(-20px); }
+        100% { transform: translateY(0px); }
+    }
+    .hearts {
+        animation: float 3s ease-in-out infinite;
+    }
     </style>
     """, unsafe_allow_html=True)
 
@@ -55,7 +65,7 @@ st.markdown('<div class="hero-box"><h1>Oi, minha vida! ❤️</h1><p>Desenvolvi 
 # Botão de ativação com feedback visual
 if st.button("CLIQUE PARA LIBERAR O ACESSO"):
     st.balloons() # Balões para comemorar
-    st.snow()     # Efeito de "neve" (que no Streamlit são flocos, mas dão um ar mágico)
+    st.markdown('<div class="hearts" style="text-align: center; font-size: 50px;">❤️❤️❤️</div>', unsafe_allow_html=True)  # Corações flutuando
     
     time.sleep(0.5)
     
